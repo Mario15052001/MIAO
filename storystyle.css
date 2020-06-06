@@ -1,0 +1,130 @@
+body
+{
+  background-image: url('https://i.pinimg.com/originals/53/13/3a/53133aec95f2dadb8eb078628c22431e.jpg');
+  background-repeat: no-repeat !important;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.box-1 {
+  width:100%;
+  height:12%;
+  padding:10px;
+  border: 0px;
+  margin-top:0px;
+  margin-left:0px;
+
+  text-align: center;
+}
+.box-2{
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-top: 555px;
+  margin-left: 0px;
+}
+
+
+.box-3{
+    width: 600px;
+    height: 1000px;
+    margin-top: -900px;
+    margin-right: auto;
+    margin-left: -200px !important;
+    display: inline-flex;
+    color: cyan;
+    font-family: arial, sans-serif;
+    text-align: justify;
+    font-weight: bold;
+
+
+}
+
+
+.left {
+  left: 25px;
+}
+
+.right {
+  right: 25px;
+}
+
+.center {
+  text-align: center;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 25px;
+}
+
+#gradient {
+  background: #999955;
+  background-image: linear-gradient(#ff0000 20%, #e60000 20%, #CC0000 40%, #b30000 40%, #990000 60%, #800000 60%, #660000 80%, #4d0000 80%);
+  margin: 0 auto;
+  margin-top: 100px;
+
+  width: 100%;
+  height: 150px;
+}
+
+#gradient:after {
+  content: "";
+  position: absolute;
+  background: #E9E2D0;
+  left: 50%;
+  margin-top: -473px;
+  margin-left: -350px;
+  padding-left: 20px;
+  border-radius: 5px;
+  width: 700px;
+  height: 1150px;
+  z-index: -1;
+}
+
+#card {
+  position: absolute;
+  width: 600px;
+  height: 1075px;
+  padding: 25px;
+  margin-top: 150px;
+  padding-top: px;
+  padding-bottom: 0;
+  left: 50%;
+  top: 67.5px;
+  margin-left: -317px;
+  background: #E9E2D0;
+  box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
+  z-index: 5;
+  text-align: justify;
+}
+
+#card img {
+  width: 150px;
+  float: left;
+  border-radius: 5px;
+  margin-right: 20px;
+  -webkit-filter: sepia(1);
+  -moz-filter: sepia(1);
+  filter: sepia(1);
+}
+
+#card h2 {
+  font-family: courier;
+  color: #EE0606;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 15pt;
+}
+
+#card p {
+  font-family: courier;
+  font-weight: bold;
+  color: #EE0606;;
+  font-size: 13px;
+}
+
+#card span {
+  font-family: courier;
+}
